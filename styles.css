@@ -1,0 +1,44 @@
+header{
+    text-align: center;
+    height: 50px;
+    
+}
+img{
+    height: 100px;
+}
+main{
+    font-size: large;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+   
+    
+}
+section{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+    gap: 10px;
+    width: 325px;
+}
+.card-item-header{
+    width: 325px;
+    text-align: center;
+}
+.card-item{
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-item-footer{
+    width: 300px;
+    text-align: end;
+    padding: 10px;
+}
