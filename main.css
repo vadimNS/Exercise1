@@ -1,0 +1,96 @@
+*{
+    margin-bottom: 1.5px;
+}
+.item1{
+    color: darkred;
+}
+section.item1{
+    color: rgb(45, 45, 45); 
+}
+main section.item1{
+    color: rgb(45, 45, 45);
+    color: blueviolet;
+}
+.item1 ol li > span{
+    font-weight: bolder;
+}
+.item1 main section article ol li + li{
+    color: black;
+}
+.item1 br ~ li{
+    font-size: 20px;
+}
+.item2 table td + td{
+  color: darkgoldenrod;
+}
+.item1 a[target="_blank"]{
+    background-color: aqua;
+}
+.item1 a[href^="https://vadim1212a"]{
+    font-weight: bolder;
+}
+.item1 a[href$="jpg"]{
+    color: green;
+    font-weight: 600;
+}
+.item1 div a:hover{
+    color: darkgray;
+    font-size: larger;
+}
+.item1 a:visited{color: blue;}
+.item1 a[href*=google]{
+    font-size: small;
+}
+.item1 a:active{
+    background-color: black;
+}
+.item1 a:focus{
+    font-weight: 600;
+}
+.item1 a{text-decoration: none;}
+.item1 span::first-letter{
+    font-size: larger;
+    color: brown;
+}
+.item1 p::first-line{
+    text-decoration: underline;
+}
+.item1 article p i::selection{
+    background-color: yellow;
+}
+header h1::before{
+    content: "CCS - ";
+    color: coral;
+}
+header h1::after{
+    content: " властивостів";
+    color: indigo;
+    text-transform: uppercase;
+}
+.item1 li:nth-child(even){
+    background-color: wheat;
+}
+.item1 li:nth-child(odd){
+    background-color: gray;
+}
+.item1 li:nth-child(3n + 1){
+    text-decoration: double;
+  
+}
+.item1 li{color:white}
+.item3 input:nth-of-type(2){
+    text-decoration: wavy;
+    text-shadow: 10px;
+    background-color: greenyellow;
+   }
+.item3 input[name="Password"]{
+    background-color: bisque;
+   }
+ .item1  li{
+    color: deeppink !important;
+   }
+
+.item1{
+   border: inherit;
+   border: 1px solid black;
+}
