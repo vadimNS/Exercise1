@@ -6,8 +6,9 @@ header{
 }
 section{
     border: 25px solid mediumpurple;
-    margin-bottom: 20px;
-   
+    margin: 10px 10px 20px;
+    padding: 5px;
+    border-style: inset;
 }
 section .section-header{
     text-align: center;
@@ -30,7 +31,11 @@ section .section-header{
     flex-wrap: wrap;   
     gap: 5px;
     width: 325px;
-    padding: 0%;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 4px 2px 2px 2px slateblue;
+    border-radius: 40px/20px;
+   
 }
 .card-item-header{
     width: 325px;
@@ -68,4 +73,7 @@ table{
 table, th, td {
     border: 1px solid black;
     font-size: 23px;
+}
+ol li{
+    list-style-type: upper-roman;
 }

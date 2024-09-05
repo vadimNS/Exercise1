@@ -1,9 +1,14 @@
 *{
     margin-bottom: 1.5px;
+    
 }
-.item1{
-    color: darkred;
+article .item1{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-style: normal;
+    background-image: linear-gradient(90deg, black, white) ;
 }
+
+  
 section.item1{
     color: rgb(45, 45, 45); 
 }
@@ -93,4 +98,104 @@ header h1::after{
 .item1{
    border: inherit;
    border: 1px solid black;
+   overflow: auto;
+   height: 415px;
+   
+}
+article .item2{
+    border-bottom: none;
+    
+}
+input:focus{
+    outline: solid aqua;
+}
+.item4{
+    box-sizing: border-box;
+    width: 300px;
+    height: 525px;
+    position: relative;
+    bottom: 20px;
+    left: 30vw;
+    background-image: linear-gradient(45deg, blue 10%, white 10%, white 20%, blue 20%, blue 30%, white 30%, white 40%, blue 40%, blue 50%, white 50%,  white 60%, blue 60%, blue 70%, white 70%, white 80%, blue 80%, blue 90%, white 90% );
+}
+.item5{
+    position: relative;
+    right: 450px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu8DGs15SG9WeqaunMgdfekvhYF4_VgmxxEA&s);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50% 50%;
+    
+}
+.item5 .background-phone{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 18.5vw;
+    height: 55.4vh;
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+}
+.item5 table{
+    position: relative;
+    z-index: 1;
+}
+.item4 .card-image{
+    position: absolute;
+    top: 30px;
+    left: 674px;
+}
+.item6{
+    min-width: 300px;
+    min-height: 200px;
+    max-width: 500px;
+    max-height: 500px;
+    float: right;
+    box-shadow: inset -2px -2px 2px 2px red, inset 2px 2px 2px 2px red;
+    background-image: radial-gradient(red, magenta);
+}
+.item1 img{
+  filter: blur(20px);
+}
+.item1 img:hover{
+    transition-duration: 1s;
+    filter: blur(0px);
+  }
+.item4 img{
+    filter: brightness(150%);
+    filter: contrast(150%);
+    filter: hue-rotate(90deg);
+    filter: saturate(200%);
+    cursor: not-allowed;
+  }
+.item4 img:hover{
+    filter: invert(100%); 
+    transform: rotate(90deg);
+    transform: scale(0.2);
+    transition-duration: 1s;
+    }
+td{
+    pointer-events: none;
+}
+.item4 p{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+::placeholder{
+    color: chocolate;
+}
+::-ms-input-placeholder{
+    color: chocolate;
+}
+:-ms-input-placeholder{
+    color: chocolate;
+}
+::-webkit-scrollbar{
+    background-color: black;
+    width: 30px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(45deg, slateblue, mediumpurple);
+    border-radius: 15px;
 }
